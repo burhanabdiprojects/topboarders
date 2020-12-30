@@ -1,0 +1,1219 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: montserrat;
+text-decoration: none;
+list-style-type: none;
+}
+
+
+#homepagebanner {
+background-image: url("images/almatysaturated.jpg");
+background-position: top;
+}
+
+.mainbanner {
+height: 350px;
+width: 100%;
+background-position: center;
+background-size: cover;
+}
+
+.bannercontent {
+height: 80%;
+display: flex;
+justify-content: center;
+align-content: center;
+flex-wrap: wrap;
+color: white;
+}
+
+.bannercontent h1 {
+width: 100%;
+text-align: center;
+margin: 5px 0;
+}
+
+.bannercontent p {
+width: 70%;
+text-align: center;
+margin: 5px 0;
+}
+
+.topbanner {
+color:black;
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+background-color: white;
+border-bottom: solid 1px rgb(230, 230, 230, 0.8);
+}
+
+@media (max-width: 812px){
+
+.categories {
+margin: 50px 0px;
+display: flex;
+justify-content: space-around;
+width: 100%;
+flex-wrap: wrap;
+}
+
+.category {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.category a {
+height: auto;
+width: auto;
+}
+
+.category h3{
+width: 100%;
+text-align: center;
+}
+
+.category p {
+width: 70%;
+text-align: center;
+margin: 10px 0;
+}
+
+.category img{
+height: 270px;
+}
+
+.category img:hover {
+animation-name: category;
+animation-duration: 300ms;
+animation-fill-mode: forwards;
+}
+
+@keyframes category {
+from {height: 270px;}
+to {height: 280px;}
+}
+
+.gogglesproductimages {
+width: 100%;
+height: auto;
+display: flex;
+justify-content: center;
+align-items: baseline;
+flex-wrap: wrap;
+}
+
+.colourgrey {
+background-color: #f0f0f0;
+width: 100%;
+height: auto;
+display: flex;
+justify-content: space-evenly;
+align-content: center;
+padding: 0 20px;
+flex-wrap: wrap;
+}
+
+.iconbox {
+width: 50%;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+height: auto;
+}
+
+.iconbox img{
+margin: 5px 0;
+}
+
+.iconbox h5 {
+width: 100%;
+}
+.iconbox h5, .iconbox p {
+margin: 5px 0;
+text-align: center;
+}
+
+.iconbox p {
+font-size: 12px;
+width: 85%;
+}
+
+.colourgrey div {
+margin: 20px 0;
+}
+
+.icon {
+max-height: 30px;
+}
+
+.menu {
+margin: 0 20px;
+display: none;}
+
+.gogglesproductimages{
+width: 100%;
+}
+
+#dropdownbutton img {
+max-height: 20px;
+cursor: pointer;
+margin-right: 30px;
+}
+
+#dropdownbutton {
+display: block;
+}
+
+.topbanner {
+min-height: 60px;
+}
+
+.jacketproductimages{
+width: 100%;
+}
+
+.productinfo{
+width: 80%;
+margin: 0 auto;
+}
+
+.productinfo button{
+width: 100%;
+}
+
+.salescopy {
+margin: 10px 0;
+max-width: 100%;
+font-size: 13px;
+}
+
+.productprice {
+color: #d71818;
+font-size: 20px;
+max-width: 50%;
+display: inline-block;
+margin: 0 10px 0 0;
+}
+
+.bottomgrid p {
+font-size: 12px;
+}
+
+.bottomgrid h5 {
+margin-bottom: 10px;
+}
+
+.bottomgrid1 p {
+margin-bottom: 15px;
+}
+
+.bottomgrid2 p {
+margin-bottom: 5px;
+}
+
+.bottomgrid1 ul{
+list-style-type: none;
+}
+
+.bottomgrid ul li {
+font-size: 12px;
+margin: 5px 0;
+}
+
+.bottomgrid ul li a {
+text-decoration: none;
+color: black;
+font-size: 11px;
+}
+
+.paymentmethods{
+max-height: 20px;    
+}
+
+.relatedproducts {
+width: 80%;
+height: auto;
+margin: 20px auto;
+display: flex;
+flex-wrap: wrap;
+}
+
+.relatedproducts h3 {
+margin: 0 auto 20px auto;
+width: 100%;
+text-align: center;
+}
+
+.relprdt {
+width: 100%;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+margin: 10px 0;
+}
+
+.relprdt h4, .relprdt p {
+width: 100%;
+text-align: center;
+margin: 5px 0;
+}
+
+.relprdt p {
+font-size: 13px;
+}
+
+.imgthumbnails {
+margin: 20px auto;
+width: 70%;
+display: flex;
+justify-content: center;
+}
+
+.thumbnail {
+max-height: 80px;
+margin: 0 15px;
+}
+
+
+.mainimg {
+height: 353px;
+width: 300px;
+}
+
+.gogglesmainimg {
+width: 440px;
+height: 320px;
+}
+
+.snowboardmainimg {
+width: 240px;
+height: 300px;
+margin: 20px 0;
+}
+
+.dropdowntext a h4 {
+width: 80%;
+text-align: left;
+margin-left: 10px;
+}
+
+.faqdropdown {
+width: 90%;
+height: auto;
+background-color: #29a7f0;
+color: white;
+margin: 30px auto;
+padding: 10px 15px;
+}
+
+.faqdropdown p {
+margin-top: 15px;
+font-size: 13px;
+}
+
+.bottomgrid {
+height: auto;
+background-color: #f0f0f0;
+width: 100%;
+padding: 10px 0;
+}
+
+.bottomgrid div {
+height: auto;
+width: 100%;
+padding: 10px 0;
+}
+
+.bottomgrid0 {
+display:none;
+}
+
+}
+
+/* .............. */
+
+@media (min-width: 812px){
+
+.categories {
+margin: 50px 0px;
+display: flex;
+justify-content: space-around;
+}
+
+.category {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.category a {
+height: auto;
+width: auto;
+}
+
+.category h3{
+width: 100%;
+text-align: center;
+}
+
+.category p {
+width: 70%;
+text-align: center;
+margin: 10px 0;
+}
+
+.category img{
+height: 270px;
+}
+
+.category img:hover {
+animation-name: category;
+animation-duration: 300ms;
+animation-fill-mode: forwards;
+}
+
+@keyframes category {
+from {height: 270px;}
+to {height: 280px;}
+}
+
+.bottomgrid {
+height: auto;
+background-color: #f0f0f0;
+width: 100%;
+}
+
+.bottomgrid div {
+height: auto;
+width: 100%;
+}
+
+.faqdropdown {
+width: 48%;
+height: auto;
+background-color: #29a7f0;
+color: white;
+margin: 30px auto;
+padding: 20px 30px;
+}
+
+.faqdropdown p {
+margin-top: 15px;
+font-size: 13px;
+}
+
+
+.dropdowntext a h4 {
+width: 75%;
+text-align: left;
+margin-left: 10px;
+}
+
+.gogglesmainimg {
+width: 440px;
+height: 320px;
+}
+
+.snowboardmainimg {
+width: 320px;
+height: 400px;
+margin: 30px 0;
+}
+
+.gogglesproductimages {
+width: 49%;
+height: auto;
+display: flex;
+justify-content: center;
+align-items: baseline;
+flex-wrap: wrap;
+}
+
+.mainimg {
+height: 471px;
+width: 400px;
+}
+
+.imgthumbnails {
+margin: 20px auto;
+width: 75%;
+display: flex;
+justify-content: center;
+}
+
+.thumbnail {
+max-height: 100px;
+margin: 0 15px;
+}
+.colourgrey {
+background-color: #f0f0f0;
+width: 100%;
+height: auto;
+display: flex;
+justify-content: space-evenly;
+padding: 0 20px;
+}
+
+.iconbox {
+width: 100%;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.iconbox img{
+margin: 5px 0;
+}
+
+.iconbox h5 {
+width: 100%;
+}
+.iconbox h5, .iconbox p {
+margin: 5px 0;
+text-align: center;
+}
+
+.iconbox p {
+font-size: 12px;
+width: 85%;
+}
+
+.colourgrey div {
+margin: 50px 0;
+}
+
+.icon {
+max-height: 30px;
+}
+
+.relatedproducts {
+width: 80%;
+height: auto;
+margin: 40px auto;
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+
+.relatedproducts h3 {
+margin: 0 auto 25px auto;
+width: 100%;
+text-align: center;
+}
+
+.relprdt {
+width: 30%;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.relprdt div {
+margin-bottom: 20px;
+}
+
+.relprdt h4 {
+width: 100%;
+text-align: center;
+margin: 5px 0;
+}
+
+.relprdt p {
+font-size: 13px;
+width: 100%;
+text-align: center;
+margin-top: 5px;
+}
+
+
+.bottomgrid {
+height: auto;
+background-color: #f0f0f0;
+display: grid;
+grid-template-columns: 1fr 2fr 2fr 2fr;
+width: 100%;
+column-gap: 25px;
+padding: 30px 30px;
+}
+
+.bottomgrid div {
+height: auto;
+}
+
+.bottomgrid0 {
+grid-column: 1 / 2;
+}
+.bottomgrid1 {
+grid-column: 2 / 3;    
+}
+
+.bottomgrid2 {
+grid-column: 3 / 4;    
+}
+
+.bottomgrid3 {
+grid-column: 4 / -1;    
+}
+
+.bottomgrid p {
+font-size: 12px;
+}
+
+.bottomgrid h5 {
+margin-bottom: 10px;
+}
+
+.bottomgrid1 p {
+margin-bottom: 15px;
+}
+
+.bottomgrid2 p {
+margin-bottom: 5px;
+}
+
+.bottomgrid1 ul{
+list-style-type: none;
+}
+
+.bottomgrid ul li {
+font-size: 12px;
+margin: 5px 0;
+}
+
+.bottomgrid ul li a {
+text-decoration: none;
+color: black;
+font-size: 11px;
+}
+
+.paymentmethods{
+max-height: 20px;    
+}
+
+
+.productprice {
+color: #d71818;
+font-size: 24px;
+max-width: 50%;
+display: inline-block;
+margin: 0 10px 0 0;
+}
+
+.salescopy {
+margin: 10px 0;
+max-width: 80%;
+font-size: 15px;
+}
+
+#dropdownbutton {
+max-height: 20px;
+cursor: pointer;
+display: none;
+}
+
+.jacketproductimages{
+width: 49%;
+}
+
+.productinfo {
+width: 50%;
+}
+
+}
+
+#dropdownmenu {
+width: 100%;
+height: auto;
+position: fixed;
+background-color: #29a7f0;
+display: none;
+}
+
+#dropdownmenu a {
+width: 100%;
+color: white;
+text-align: center;
+}
+
+#dropdownmenu h3 {
+padding: 10px 0;
+}
+
+.menu {
+margin: 0 20px;
+}
+
+.menu ul {
+list-style-type: none;
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+}
+
+.menu ul li {
+width: auto;
+padding: 20px 10px;
+}
+
+.menu ul li a {
+text-decoration: none;
+color:black;
+font-size: 15px;
+}
+
+.colourblue {
+background-color:#29a7f0;
+width: 100%;
+height: 100%;
+color: white;
+display: flex;
+align-items: center;
+justify-items: center;
+}
+
+.actionshot {
+max-height: 300px;
+}
+
+.productsgrid {
+display: grid;
+max-width: 100%;
+height: auto;
+grid-template-columns: 25% 25% 25% 25%;
+grid-template-rows: minmax(auto, 350px);
+margin: 50px 20px;
+}
+
+.gogglesgrid {
+display: grid;
+max-width: 100%;
+height: auto;
+grid-template-columns: 25% 25% 25% 25%;
+grid-template-rows: minmax(auto, 350px);
+margin: 0 20px 30px 20px;    
+}
+
+.grid1 {
+max-width: 100%;
+display: flex;
+justify-content: center;
+align-content: center;
+grid-column: 1 / 2;
+}
+
+
+.grid2 {
+max-width: 100%;
+display: flex;
+justify-content: center;
+align-content: center;
+grid-column: 2 / 3;
+}
+
+.grid3 {
+max-width: 100%;
+display: flex;
+justify-content: center;
+align-content: center;
+grid-column: 3 / 4;
+}
+
+.grid4 {
+max-width: 100%;
+display: flex;
+justify-content: center;
+align-content: center;
+grid-column: 4 / -1;
+}
+
+.gridpiece {
+flex-wrap: wrap;
+}
+
+.gridpiece p {
+font-size: 13px;
+margin: 2px 0;
+}
+
+.gridpiece h3, .gridpiece p {
+width: 100%;
+text-align: center;
+}
+
+.gridpiece div {
+margin-bottom: 20px;
+}
+
+
+
+.jacket {
+width: 250px;
+height: 294px;
+background-size: cover;
+}
+
+#orangejacket {
+background-image: url("images/products/orange/orange1.jpg");
+}
+
+#orangejacket:hover {
+background-image: url("images/products/orange/orange2.jpg");
+cursor: pointer; 
+}
+
+#whitejacket {
+background-image: url("images/products/white/white1.jpg");   
+}
+
+#whitejacket:hover {
+background-image: url("images/products/white/white2.jpg");   
+cursor: pointer; 
+}
+
+#blackjacket {
+background-image: url("images/products/blackdopejacket/black1.jpg");   
+}
+
+#blackjacket:hover {
+background-image: url("images/products/blackdopejacket/black2.jpg");  
+cursor: pointer;  
+}
+
+#bngjacket {
+background-image: url("images/products/blackandgold/blackandgold1.jpg");   
+}
+
+#bngjacket:hover {
+background-image: url("images/products/blackandgold/blackandgold2.jpg"); 
+cursor: pointer;  
+}
+
+.productbutton {
+display: none;
+}
+
+.marketing {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+align-items: center;
+height: 35%;
+width: 100%;
+}
+
+.marketing h2, .marketing p {
+width: 100%;
+text-align: center;
+}
+
+.whitebutton {
+border: none;
+background-color: white;
+color: #29a7f0;
+width: auto;
+height: auto;
+padding: 10px 16px;
+font-size: 17px;
+font-weight: bold;
+border-radius: 3px;
+margin-top: 10px;
+}
+
+.container {
+height: auto;
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+}
+
+.split {
+width: 50%;
+height: 350px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.marin {
+background-image: url("images/marin-tulard.jpg");
+background-size: cover;
+background-position: center;
+}
+
+#gogglesbanner {
+background-image: url("images/pexels-monicore.jpg");
+background-size: cover;
+background-position: center;
+}
+
+#quicksilverblack {
+background-image: url("images/products/quicksilverblack/1219431.jpg");
+}
+
+#quicksilverblack:hover {
+background-image: url("images/products/quicksilverblack/1219433.jpg");
+}
+
+#quicksilvergold {
+background-image: url("images/products/quicksilvergold/1238773.jpg");
+}
+
+#quicksilvergold:hover {
+background-image: url("images/products/quicksilvergold/1238774.jpg");
+}
+
+#quicksilverblue {
+background-image: url("images/products/quiksilverblue/1242433.jpg");
+}
+
+#quicksilverblue:hover {
+background-image: url("images/products/quiksilverblue/1242434.jpg");
+}
+
+#quicksilverwhite {
+background-image: url("images/products/quiksilverwhite/1242635.jpg");
+}
+
+#quicksilverwhite:hover {
+background-image: url("images/products/quiksilverwhite/1242636.jpg");
+}
+
+.goggles {
+height: 200px;
+width: 275px;
+background-size: cover;
+}
+
+#snowboardbanner {
+background-image: url("images/fede-roveda.jpg");
+background-size: cover;
+background-position: center;
+height: 350px;
+}
+
+.white {
+color: white;
+}
+
+.black {
+color: black;
+}
+
+.innersplit {
+align-content: center;
+height: 50%;
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+}
+
+.innersplit h2, .innersplit h1, .innersplit p {
+width: 80%;
+text-align: center;
+margin: 5px auto;
+height: auto;
+}
+
+.snowboards {
+width: 200px;
+height: 250px;
+background-size: cover;
+}
+
+.snowboards:hover {
+animation-name: zoom;
+animation-duration: 500ms;
+animation-fill-mode: forwards;
+}
+
+@keyframes zoom {
+from {width: 200px; height: 250px;}
+to {width: 210px; height: 262px;}
+}
+
+#bwsnowboard {
+background-image: url("images/products/bwsnowboard/820036900.jpg");
+}
+
+#doasnowboard {
+background-image: url("images/products/doasnowboard/doasnowboard.jpg");
+}
+
+#handsignsnowboard {
+background-image: url("images/products/handsignsnowboard/handsignsnowboard.jpg");
+}
+
+#stallionboard {
+background-image: url("images/products/stallionboard/stallionboard.jpg");
+}
+
+.price {
+color: #d71818;
+}
+
+.margintop {
+margin-top: 60px;
+}
+
+.logo {
+margin: 0 35px;
+max-height: 50px;
+width: auto;
+}
+
+.logo img {
+max-height: 50px;
+}
+
+#jacketbanner {
+background-image: url("images/redjacket.jpg");
+background-size: cover;
+background-position: top;
+height: 350px;
+}
+
+#aboutbanner {
+background-image: url("images/bannerimg.jpg");
+background-size: cover;
+background-position: center;
+}
+
+.centrediv {
+width: 75%;
+margin: 30px auto;
+text-align: center;
+}
+
+.text-content-left {
+width: 50%;
+}
+
+.text-content-left h1, .text-content-left p {
+margin: 30px;
+}
+
+.productdisplay {
+height: auto;
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+}
+
+.jacketproductimages {
+height: auto;
+display: flex;
+justify-content: center;
+align-items: baseline;
+flex-wrap: wrap;
+padding: 20px 0;
+}
+
+
+#dopewyliebng {
+background-image: url("images/products/blackandgold/blackandgold1.jpg");
+background-size: cover;
+background-position: center;
+}
+
+#dopeblizzardorg {
+background-image: url("images/products/orange/orange1.jpg");
+background-size: cover;
+background-position: center;
+}
+
+#dopeyeti {
+background-image: url("images/products/white/white1.jpg");
+background-size: cover;
+background-position: center;
+}
+
+#blackyeti {
+background-image: url("images/products/blackdopejacket/black1.jpg");
+background-size: cover;
+background-position: center;
+}
+
+
+.imgborder {
+border: solid 2px black;
+}
+
+.productinfo {
+height: auto;
+padding: 20px 0;
+}
+
+.productinfo h3 {
+margin-bottom: 10px;
+}
+
+.size {
+width: 30px;
+cursor: pointer;
+margin: 10px 0;
+}
+
+
+.pricebox {
+width: 200px;
+height: auto;
+margin: 5px 0 10px 0;
+}
+
+.oldprice {
+color: #575656;
+font-size: 18px;
+text-decoration: line-through;
+max-width: 50%;
+display: inline-block;
+}
+
+.quantitybox {
+width: 200px;
+display: flex;
+flex-wrap: wrap;
+margin: 10px 0;
+}
+
+.quantitybox p {
+display: inline;
+margin-right: 10px;
+font-size: 13px;
+}
+
+.quantitybox input {
+display: inline;
+width: 50px;
+height: 20px;
+font-size: 13px;
+}
+
+.soldoutbutton {
+color:#29a7f0;
+background-color: white;
+border:solid 1.5px #29a7f0;
+font-size: 22px;
+font-weight: bold;
+padding: 10px 80px;
+margin: 20px 0;
+}
+
+.productsize p {
+font-size: 13px;
+}
+
+.faq {
+height: auto;
+width: 100%;
+}
+
+.faq h3 {
+margin: 30px auto;
+text-align: center;
+}
+
+#windsnow, #glasses, #ridingstyle, #shape, #delivery, #water{
+display: none;
+}
+
+.faqdropdown h4 {
+display: inline;
+}
+
+.faqdropdown img {
+max-height: 13px;
+display: inline;
+margin-left: 130px;
+}
+
+.faqdropdown a {
+cursor: pointer;
+}
+
+.productsgrid a, .relatedproducts a, .gogglesgrid a{
+text-decoration: none;
+color: black;
+}
+
+#sherpablack {
+background-image: url('images/products/quicksilverblack/1219431.jpg');
+background-size: cover;
+background-position: center;
+}
+
+#sherpawhite {
+background-image: url('images/products/quiksilverwhite/1242635.jpg');
+background-size: cover;
+background-position: center;
+}
+
+#switchbackblue{
+background-image: url('images/products/quiksilverblue/1242433.jpg');
+background-size: cover;
+background-position: center;
+}
+
+#snowgold{
+background-image: url('images/products/quicksilvergold/1238773.jpg');
+background-size: cover;
+background-position: center;
+}
+
+
+#warpig {
+background-image: url("images/products/bwsnowboard/820036900.jpg");
+background-position: center;
+background-size: cover;
+}
+
+#capitadoa {
+background-image: url("images/products/doasnowboard/doasnowboard.jpg");
+background-position: center;
+background-size: cover;
+}
+
+#funkink {
+background-image: url("images/products/handsignsnowboard/handsignsnowboard.jpg");
+background-position: center;
+background-size: cover;
+}
+
+#stallionimg {
+background-image: url("images/products/stallionboard/stallionboard.jpg");
+background-position: center;
+background-size: cover;
+}
+
+.salescopy ul li{
+list-style-type: none;
+}
+
+.dropdowntext a{
+display: flex;
+justify-content: space-around;
+}
+
+.dropdowntext p {
+margin-left: 10px;
+width: 95%;
+}
+
+.divider {
+border: solid 1px #f2f2f2;
+width: 100%;
+margin: 20px 0;
+}
+
+.blankdivider {
+width: 100%;
+margin: 20px 0;
+border: 0;
+}

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="topboarders.css">
+    <meta charset="UTF-8">
+    <title>Bataleon Stallion Snowboard 2021</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <div class="topbanner">
+        <a href="index.html" class="logo"><img src="images/logowolf.png"></a>
+        <div class="menu">
+            <ul>
+                <li><a href="jackets.html">Jackets</a></li>
+                <li><a href="goggles.html">Goggles</a></li>
+                <li><a href="snowboards.html">Snowboards</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <a onclick="togglemenu()" id="dropdownbutton"><img src="images/dropdownbutton.png"></a>
+    </div>
+
+    <div id="dropdownmenu">
+        <a href="jackets.html"><h3>Jackets</h3></a>
+        <a href="goggles.html"><h3>Goggles</h3></a>
+        <a href="snowboards.html"><h3>Snowboards</h3></a>
+        <a href="about.html"><h3>About</h3></a>
+        <a href="contact.html"><h3>Contact</h3></a>
+      </div>
+
+    <div class="productdisplay margintop">
+        <div class="gogglesproductimages">
+            <div class="snowboardmainimg" id="stallionimg">
+            </div>
+            <div class="imgthumbnails">
+                <img src="images/products/stallionboard/stallionboard.jpg" class="thumbnail imgborder"><!-- passing through the product and also the specific image -->
+            </div>  
+
+        </div>
+
+        <div class="productinfo">
+
+            <h3>Bataleon Stallion Snowboard 2021</h3>
+
+            <div class="pricebox">
+                <p class="productprice">£539.99</p>
+                <p class="oldprice">£599.99</p>
+            </div>
+
+            <div class="quantitybox">
+                <p>Quantity</p>
+                <input min="1" type="number" id="quantity" name="quantity" value="1">
+            </div>
+
+            <button class="soldoutbutton">SOLD OUT</button>
+
+            <div class="salescopy">
+                <p>The problem with being a bigger, heavier rider is that you’re stuck for choice when it comes to choosing a board. For sure there’s plenty of wide versions of most models available, but they’re all just wider versions of the standard board made primarily for riders with bigger feet. The 2021 Bataleon Stallion is completely different, designed from the ground up for heavier riders, this all-terrain charger combines advanced design with carefully selected high-end manufacturing to deliver stunning performance for the larger rider. Built around a wide platform directional twin chassis with Bataleon’s advanced Freestyle 3BT profile, the Stallion is happy in any type of terrain and any kind of conditions; ensuring that no matter what or where you ride, this is one board that’s going to deliver. Internally Bataleon utilises some of the most advanced construction available to deliver a board that’s going to perform no matter how big or heavy you are or how hard you push it.</p>
+            </div>
+        </div>
+
+        <hr class="divider">
+
+        <div class="faq">
+            <h3>Frequently Asked Questions</h3>
+
+            <div class="faqdropdown">
+                <div class="dropdowntext">
+                   <a onclick="dropdown('ridingstyle')"><h4>What Experience Level Is This Suitable For?</h4>
+                    <img src="images/plus.png"></a>
+                    <p id="ridingstyle">Advanced to expert freeriders who are looking for a short high-performance board that makes you rethink your whole approach to snowboarding.</p>
+                </div>
+            </div>
+
+            <div class="faqdropdown">
+                <div class="dropdowntext">
+                   <a onclick="dropdown('shape')"><h4>What Effect Does The Design Shape Have?</h4>
+                    <img src="images/plus.png"></a>
+                    <p id="shape">The Stallion utilises a state of the art, freeride inspired directional twin chassis. This versatile shape combines all the feel and control of a true twin, with the stability, power and response that you would typically only get from a directional board.</p>
+                </div>
+            </div>
+
+            <div class="faqdropdown">
+                <div class="dropdowntext">
+                   <a onclick="dropdown('delivery')"><h4>How Long Does Delivery Take?</h4>
+                    <img src="images/plus.png"></a>
+                    <p id="delivery">Delivery is completely free and takes 2-3 days on average.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <hr class="blankdivider">
+
+        <div class="colourgrey">
+
+            <div class="iconbox">
+                <img src="images/restarticon.png" class="icon">
+                <h5>30 Day Return Policy</h5>
+                <p>Don't like your order? Send it back within 30 days of purchase to get your money back.</p>
+            </div>
+    
+            <div class="iconbox">
+                <img src="images/thumbsupicon.png" class="icon">
+                <h5>Satisfaction Guarantee</h5>
+                <p>Either you are fully satisfied with your order, or you pay nothing!</p>
+            </div>
+    
+            <div class="iconbox">
+                <img src="images/deliveryicon.png" class="icon"> 
+                <h5>Free Delivery</h5>
+                <p>Fast and reliable delivery, completely free. All orders delivered within 2-3 days.</p>
+            </div>
+    
+            <div class="iconbox">
+                <img src="images/gifticon.png" class="icon">
+                <h5>The Perfect Gift</h5>
+                <p>Order the perfect gift for your your family and friends.</p>
+            </div>
+    
+        </div>
+    
+
+        <div class="relatedproducts">
+
+            <h3>You Might Also Like...</h3>
+
+            <div class="relprdt">
+                <a href="Ride-Warpig-Snowboard-2021.html"><div class="snowboards" id="bwsnowboard"></div></a>
+                <a href="Ride-Warpig-Snowboard-2021.html"><h5>Ride Warpig Snowboard 2021</h5></a>
+                <p>Some intro text</p>
+                <p class="price">£519.99</p>
+            </div>
+
+            <div class="relprdt">
+                <a href="Capita-DOA-Snowboard-2021.html"><div class="snowboards" id="doasnowboard"></div></a>
+                <a href="Capita-DOA-Snowboard-2021.html"><h5>Capita DOA Snowboard 2021</h5></a>
+                <p>Some intro text</p>
+                <p class="price">£599.99</p>    
+            </div>
+
+            <div class="relprdt">
+                <a href="Bataleon-Funkink-Snowboard-2021.html"><div class="snowboards" id="handsignsnowboard"></div></a>
+                <a href="Bataleon-Funkink-Snowboard-2021.html"><h5>Bataleon Funkink Snowboard 2021</h5></a>
+                <p>Some intro text</p>
+                <p class="price">£519.99</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="bottomgrid">
+
+        <div class="bottomgrid0">
+            <img src="images/logowolf.png" class="logo">
+        </div>
+
+        <div class="bottomgrid1">
+            <h5>Shop by Category</h5>
+            <p>Find exactly what you are looking for, search by category.</p>
+            <ul>
+                <li><a href="jackets.html">Jackets</a></li>
+                <li><a href="goggles.html">Goggles</a></li>
+                <li><a href="snowboards.html">Snowboards</a></li>
+            </ul>
+        </div>
+
+        <div class="bottomgrid2">
+            <h5>Find Information</h5>
+            <p>Call us on 00011122212</p>
+            <p>Or alternatively email us at support@topboarder.com</p>
+        </div>
+
+        <div class="bottomgrid3">
+            <h5>Secure Payment</h5>
+            <img src="images/paymentmethodssmall.png" class="paymentmethods">
+        </div>
+
+    <script src="topboarders.js">
+        
+    </script>
+
+</body>
+
+</html>
