@@ -13,12 +13,6 @@ background-image: url("images/almatysaturated.jpg");
 background-position: top;
 }
 
-.mainbanner {
-height: 350px;
-width: 100%;
-background-position: center;
-background-size: cover;
-}
 
 .bannercontent {
 height: 80%;
@@ -54,580 +48,6 @@ background-color: white;
 border-bottom: solid 1px rgb(230, 230, 230, 0.8);
 }
 
-@media (max-width: 812px){
-
-.categories {
-margin: 50px 0px;
-display: flex;
-justify-content: space-around;
-width: 100%;
-flex-wrap: wrap;
-}
-
-.category {
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-}
-
-.category a {
-height: auto;
-width: auto;
-}
-
-.category h3{
-width: 100%;
-text-align: center;
-}
-
-.category p {
-width: 70%;
-text-align: center;
-margin: 10px 0;
-}
-
-.category img{
-height: 270px;
-}
-
-.category img:hover {
-animation-name: category;
-animation-duration: 300ms;
-animation-fill-mode: forwards;
-}
-
-@keyframes category {
-from {height: 270px;}
-to {height: 280px;}
-}
-
-.gogglesproductimages {
-width: 100%;
-height: auto;
-display: flex;
-justify-content: center;
-align-items: baseline;
-flex-wrap: wrap;
-}
-
-.colourgrey {
-background-color: #f0f0f0;
-width: 100%;
-height: auto;
-display: flex;
-justify-content: space-evenly;
-align-content: center;
-padding: 0 20px;
-flex-wrap: wrap;
-}
-
-.iconbox {
-width: 50%;
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-height: auto;
-}
-
-.iconbox img{
-margin: 5px 0;
-}
-
-.iconbox h5 {
-width: 100%;
-}
-.iconbox h5, .iconbox p {
-margin: 5px 0;
-text-align: center;
-}
-
-.iconbox p {
-font-size: 12px;
-width: 85%;
-}
-
-.colourgrey div {
-margin: 20px 0;
-}
-
-.icon {
-max-height: 30px;
-}
-
-.menu {
-margin: 0 20px;
-display: none;}
-
-.gogglesproductimages{
-width: 100%;
-}
-
-#dropdownbutton img {
-max-height: 20px;
-cursor: pointer;
-margin-right: 30px;
-}
-
-#dropdownbutton {
-display: block;
-}
-
-.topbanner {
-min-height: 60px;
-}
-
-.jacketproductimages{
-width: 100%;
-}
-
-.productinfo{
-width: 80%;
-margin: 0 auto;
-}
-
-.productinfo button{
-width: 100%;
-}
-
-.salescopy {
-margin: 10px 0;
-max-width: 100%;
-font-size: 13px;
-}
-
-.productprice {
-color: #d71818;
-font-size: 20px;
-max-width: 50%;
-display: inline-block;
-margin: 0 10px 0 0;
-}
-
-.bottomgrid p {
-font-size: 12px;
-}
-
-.bottomgrid h5 {
-margin-bottom: 10px;
-}
-
-.bottomgrid1 p {
-margin-bottom: 15px;
-}
-
-.bottomgrid2 p {
-margin-bottom: 5px;
-}
-
-.bottomgrid1 ul{
-list-style-type: none;
-}
-
-.bottomgrid ul li {
-font-size: 12px;
-margin: 5px 0;
-}
-
-.bottomgrid ul li a {
-text-decoration: none;
-color: black;
-font-size: 11px;
-}
-
-.paymentmethods{
-max-height: 20px;    
-}
-
-.relatedproducts {
-width: 80%;
-height: auto;
-margin: 20px auto;
-display: flex;
-flex-wrap: wrap;
-}
-
-.relatedproducts h3 {
-margin: 0 auto 20px auto;
-width: 100%;
-text-align: center;
-}
-
-.relprdt {
-width: 100%;
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-margin: 10px 0;
-}
-
-.relprdt h4, .relprdt p {
-width: 100%;
-text-align: center;
-margin: 5px 0;
-}
-
-.relprdt p {
-font-size: 13px;
-}
-
-.imgthumbnails {
-margin: 20px auto;
-width: 70%;
-display: flex;
-justify-content: center;
-}
-
-.thumbnail {
-max-height: 80px;
-margin: 0 15px;
-}
-
-
-.mainimg {
-height: 353px;
-width: 300px;
-}
-
-.gogglesmainimg {
-width: 440px;
-height: 320px;
-}
-
-.snowboardmainimg {
-width: 240px;
-height: 300px;
-margin: 20px 0;
-}
-
-.dropdowntext a h4 {
-width: 80%;
-text-align: left;
-margin-left: 10px;
-}
-
-.faqdropdown {
-width: 90%;
-height: auto;
-background-color: #29a7f0;
-color: white;
-margin: 30px auto;
-padding: 10px 15px;
-}
-
-.faqdropdown p {
-margin-top: 15px;
-font-size: 13px;
-}
-
-.bottomgrid {
-height: auto;
-background-color: #f0f0f0;
-width: 100%;
-padding: 10px 0;
-}
-
-.bottomgrid div {
-height: auto;
-width: 100%;
-padding: 10px 0;
-}
-
-.bottomgrid0 {
-display:none;
-}
-
-}
-
-/* .............. */
-
-@media (min-width: 812px){
-
-.categories {
-margin: 50px 0px;
-display: flex;
-justify-content: space-around;
-}
-
-.category {
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-}
-
-.category a {
-height: auto;
-width: auto;
-}
-
-.category h3{
-width: 100%;
-text-align: center;
-}
-
-.category p {
-width: 70%;
-text-align: center;
-margin: 10px 0;
-}
-
-.category img{
-height: 270px;
-}
-
-.category img:hover {
-animation-name: category;
-animation-duration: 300ms;
-animation-fill-mode: forwards;
-}
-
-@keyframes category {
-from {height: 270px;}
-to {height: 280px;}
-}
-
-.bottomgrid {
-height: auto;
-background-color: #f0f0f0;
-width: 100%;
-}
-
-.bottomgrid div {
-height: auto;
-width: 100%;
-}
-
-.faqdropdown {
-width: 48%;
-height: auto;
-background-color: #29a7f0;
-color: white;
-margin: 30px auto;
-padding: 20px 30px;
-}
-
-.faqdropdown p {
-margin-top: 15px;
-font-size: 13px;
-}
-
-
-.dropdowntext a h4 {
-width: 75%;
-text-align: left;
-margin-left: 10px;
-}
-
-.gogglesmainimg {
-width: 440px;
-height: 320px;
-}
-
-.snowboardmainimg {
-width: 320px;
-height: 400px;
-margin: 30px 0;
-}
-
-.gogglesproductimages {
-width: 49%;
-height: auto;
-display: flex;
-justify-content: center;
-align-items: baseline;
-flex-wrap: wrap;
-}
-
-.mainimg {
-height: 471px;
-width: 400px;
-}
-
-.imgthumbnails {
-margin: 20px auto;
-width: 75%;
-display: flex;
-justify-content: center;
-}
-
-.thumbnail {
-max-height: 100px;
-margin: 0 15px;
-}
-.colourgrey {
-background-color: #f0f0f0;
-width: 100%;
-height: auto;
-display: flex;
-justify-content: space-evenly;
-padding: 0 20px;
-}
-
-.iconbox {
-width: 100%;
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-}
-
-.iconbox img{
-margin: 5px 0;
-}
-
-.iconbox h5 {
-width: 100%;
-}
-.iconbox h5, .iconbox p {
-margin: 5px 0;
-text-align: center;
-}
-
-.iconbox p {
-font-size: 12px;
-width: 85%;
-}
-
-.colourgrey div {
-margin: 50px 0;
-}
-
-.icon {
-max-height: 30px;
-}
-
-.relatedproducts {
-width: 80%;
-height: auto;
-margin: 40px auto;
-display: flex;
-justify-content: space-evenly;
-flex-wrap: wrap;
-}
-
-.relatedproducts h3 {
-margin: 0 auto 25px auto;
-width: 100%;
-text-align: center;
-}
-
-.relprdt {
-width: 30%;
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-}
-
-.relprdt div {
-margin-bottom: 20px;
-}
-
-.relprdt h4 {
-width: 100%;
-text-align: center;
-margin: 5px 0;
-}
-
-.relprdt p {
-font-size: 13px;
-width: 100%;
-text-align: center;
-margin-top: 5px;
-}
-
-
-.bottomgrid {
-height: auto;
-background-color: #f0f0f0;
-display: grid;
-grid-template-columns: 1fr 2fr 2fr 2fr;
-width: 100%;
-column-gap: 25px;
-padding: 30px 30px;
-}
-
-.bottomgrid div {
-height: auto;
-}
-
-.bottomgrid0 {
-grid-column: 1 / 2;
-}
-.bottomgrid1 {
-grid-column: 2 / 3;    
-}
-
-.bottomgrid2 {
-grid-column: 3 / 4;    
-}
-
-.bottomgrid3 {
-grid-column: 4 / -1;    
-}
-
-.bottomgrid p {
-font-size: 12px;
-}
-
-.bottomgrid h5 {
-margin-bottom: 10px;
-}
-
-.bottomgrid1 p {
-margin-bottom: 15px;
-}
-
-.bottomgrid2 p {
-margin-bottom: 5px;
-}
-
-.bottomgrid1 ul{
-list-style-type: none;
-}
-
-.bottomgrid ul li {
-font-size: 12px;
-margin: 5px 0;
-}
-
-.bottomgrid ul li a {
-text-decoration: none;
-color: black;
-font-size: 11px;
-}
-
-.paymentmethods{
-max-height: 20px;    
-}
-
-
-.productprice {
-color: #d71818;
-font-size: 24px;
-max-width: 50%;
-display: inline-block;
-margin: 0 10px 0 0;
-}
-
-.salescopy {
-margin: 10px 0;
-max-width: 80%;
-font-size: 15px;
-}
-
-#dropdownbutton {
-max-height: 20px;
-cursor: pointer;
-display: none;
-}
-
-.jacketproductimages{
-width: 49%;
-}
-
-.productinfo {
-width: 50%;
-}
-
-}
 
 #dropdownmenu {
 width: 100%;
@@ -643,8 +63,13 @@ color: white;
 text-align: center;
 }
 
+#dropdownmenu a h3:hover {
+background-color: #0980ab;
+}
+
 #dropdownmenu h3 {
 padding: 10px 0;
+border: 1px solid rgb(9, 128, 171, 0.2);
 }
 
 .menu {
@@ -683,57 +108,6 @@ justify-items: center;
 max-height: 300px;
 }
 
-.productsgrid {
-display: grid;
-max-width: 100%;
-height: auto;
-grid-template-columns: 25% 25% 25% 25%;
-grid-template-rows: minmax(auto, 350px);
-margin: 50px 20px;
-}
-
-.gogglesgrid {
-display: grid;
-max-width: 100%;
-height: auto;
-grid-template-columns: 25% 25% 25% 25%;
-grid-template-rows: minmax(auto, 350px);
-margin: 0 20px 30px 20px;    
-}
-
-.grid1 {
-max-width: 100%;
-display: flex;
-justify-content: center;
-align-content: center;
-grid-column: 1 / 2;
-}
-
-
-.grid2 {
-max-width: 100%;
-display: flex;
-justify-content: center;
-align-content: center;
-grid-column: 2 / 3;
-}
-
-.grid3 {
-max-width: 100%;
-display: flex;
-justify-content: center;
-align-content: center;
-grid-column: 3 / 4;
-}
-
-.grid4 {
-max-width: 100%;
-display: flex;
-justify-content: center;
-align-content: center;
-grid-column: 4 / -1;
-}
-
 .gridpiece {
 flex-wrap: wrap;
 }
@@ -747,12 +121,6 @@ margin: 2px 0;
 width: 100%;
 text-align: center;
 }
-
-.gridpiece div {
-margin-bottom: 20px;
-}
-
-
 
 .jacket {
 width: 250px;
@@ -886,17 +254,8 @@ background-image: url("images/products/quiksilverwhite/1242635.jpg");
 background-image: url("images/products/quiksilverwhite/1242636.jpg");
 }
 
-.goggles {
-height: 200px;
-width: 275px;
-background-size: cover;
-}
-
 #snowboardbanner {
 background-image: url("images/fede-roveda.jpg");
-background-size: cover;
-background-position: center;
-height: 350px;
 }
 
 .white {
@@ -905,27 +264,6 @@ color: white;
 
 .black {
 color: black;
-}
-
-.innersplit {
-align-content: center;
-height: 50%;
-width: 100%;
-display: flex;
-flex-wrap: wrap;
-}
-
-.innersplit h2, .innersplit h1, .innersplit p {
-width: 80%;
-text-align: center;
-margin: 5px auto;
-height: auto;
-}
-
-.snowboards {
-width: 200px;
-height: 250px;
-background-size: cover;
 }
 
 .snowboards:hover {
@@ -964,6 +302,12 @@ margin-top: 60px;
 }
 
 .logo {
+margin: 10px 35px;
+max-height: 50px;
+width: auto;
+}
+
+.logobottom {
 margin: 0 35px;
 max-height: 50px;
 width: auto;
@@ -977,11 +321,10 @@ max-height: 50px;
 background-image: url("images/redjacket.jpg");
 background-size: cover;
 background-position: top;
-height: 350px;
 }
 
 #aboutbanner {
-background-image: url("images/bannerimg.jpg");
+background-image: url("images/aboutimg.jpg");
 background-size: cover;
 background-position: center;
 }
@@ -992,8 +335,21 @@ margin: 30px auto;
 text-align: center;
 }
 
-.text-content-left {
+.text-content-centre {
+width: 100%;
+}
+
+.text-content-centre h1 {
+text-align: center;
 width: 50%;
+margin: 0 auto;
+}
+
+
+.text-content-centre p {
+font-size: 14px;
+width: 80%;
+margin: 10px auto;
 }
 
 .text-content-left h1, .text-content-left p {
@@ -1005,6 +361,7 @@ height: auto;
 width: 100%;
 display: flex;
 flex-wrap: wrap;
+padding-top: 20px;
 }
 
 .jacketproductimages {
@@ -1212,8 +569,822 @@ width: 100%;
 margin: 20px 0;
 }
 
+.dividerdark {
+border: solid 1px #d1d1d1;
+width: 100%;
+margin: 10px 0;
+opacity: 0.25;
+}
+
+.dividerdarknomargin {
+border: solid 1px #d1d1d1;
+width: 100%;
+opacity: 0.25;
+}
+
 .blankdivider {
 width: 100%;
 margin: 20px 0;
 border: 0;
 }
+
+@media (max-width: 812px){
+
+    .mainbanner {
+        height: 280px;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        }
+
+    .mainbanner .split{
+        width: 60%;
+        height: 100%;
+    }
+
+    .innersplit {
+        align-content: center;
+        height: 50%;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        }
+        
+        .innersplit h2, .innersplit h1, .innersplit p {
+        width: 100%;
+        text-align: center;
+        margin: 5px auto;
+        height: auto;
+        }
+
+        .innersplit h1 {
+        font-size: 22px;
+        }
+
+        .innersplit p {
+        font-size: 16px;
+        }
+
+    .verticaldivider {
+        border-right: solid 1px #d1d1d1;
+    }
+
+    .relatedproducts h3 {
+        margin: 10px auto 10px auto;
+        width: 100%;
+        text-align: center;
+        }
+
+    .snowboards {
+        width: 200px;
+        height: 250px;
+        background-size: cover;
+        margin: 20px 0;
+        }
+    
+    .goggles {
+    height: 200px;
+    width: 275px;
+    background-size: cover;
+    }
+    
+    .productsgrid {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    height: auto;
+    margin: 50px auto;
+    }
+    
+    .productsgrid a {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    }
+    
+    .productsgrid a h5 {
+    margin-top: 15px;
+    }
+    
+    .gogglesgrid {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    height: auto;
+    }
+    
+    .grid1 {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    }
+    
+    .grid2 {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    }
+    
+    .grid3 {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    }
+    
+    .grid4 {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    }
+    
+    .gridpiece div {
+    margin: 5px;
+    }
+    
+    .categories {
+    margin: 50px 0px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    }
+    
+    .category {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+    
+    .category a {
+    height: auto;
+    width: auto;
+    }
+    
+    .category h3{
+    width: 100%;
+    text-align: center;
+    }
+    
+    .category p {
+    width: 70%;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 13px;
+    }
+    
+    .category img{
+    height: 270px;
+    }
+    
+    .category img:hover {
+    animation-name: category;
+    animation-duration: 300ms;
+    animation-fill-mode: forwards;
+    }
+    
+    @keyframes category {
+    from {height: 270px;}
+    to {height: 280px;}
+    }
+    
+    .gogglesproductimages {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+    }
+    
+    .colourgrey {
+    background-color: #f0f0f0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 0 20px;
+    flex-wrap: wrap;
+    }
+    
+    .iconbox {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+    }
+    
+    .iconbox img{
+    margin: 5px 0;
+    }
+    
+    .iconbox h5 {
+    width: 100%;
+    }
+    .iconbox h5, .iconbox p {
+    margin: 5px 0;
+    text-align: center;
+    }
+    
+    .iconbox p {
+    font-size: 12px;
+    width: 85%;
+    }
+    
+    .colourgrey div {
+    padding: 20px 0;
+    }
+    
+    .icon {
+    max-height: 30px;
+    }
+    
+    .menu {
+    margin: 0 20px;
+    display: none;}
+    
+    .gogglesproductimages{
+    width: 100%;
+    }
+    
+    #dropdownbutton img {
+    max-height: 20px;
+    cursor: pointer;
+    margin-right: 30px;
+    }
+    
+    #dropdownbutton {
+    display: block;
+    }
+    
+    .topbanner {
+    min-height: 60px;
+    }
+    
+    .jacketproductimages{
+    width: 100%;
+    }
+    
+    .productinfo{
+    width: 80%;
+    margin: 0 auto;
+    }
+    
+    .productinfo button{
+    width: 100%;
+    }
+    
+    .salescopy {
+    margin: 10px 0;
+    max-width: 100%;
+    font-size: 13px;
+    }
+    
+    .productprice {
+    color: #d71818;
+    font-size: 20px;
+    max-width: 50%;
+    display: inline-block;
+    margin: 0 10px 0 0;
+    }
+    
+    .bottomgrid p {
+    font-size: 12px;
+    }
+    
+    .bottomgrid h5 {
+    margin-bottom: 10px;
+    }
+    
+    .bottomgrid1 p {
+    margin-bottom: 15px;
+    }
+    
+    .bottomgrid2 p {
+    margin-bottom: 5px;
+    }
+    
+    .bottomgrid1 ul{
+    list-style-type: none;
+    }
+    
+    .bottomgrid ul li {
+    font-size: 12px;
+    margin: 5px 0;
+    }
+    
+    .bottomgrid ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+    }
+    
+    .paymentmethods{
+    max-height: 20px;    
+    }
+    
+    .relatedproducts {
+    width: 80%;
+    height: auto;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    
+    
+    .relprdt {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    }
+    
+    .relprdt h4, .relprdt p {
+    width: 100%;
+    text-align: center;
+    margin: 5px 0;
+    }
+    
+    .relprdt p {
+    font-size: 13px;
+    }
+    
+    .imgthumbnails {
+    margin: 20px auto;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    }
+    
+    .thumbnail {
+    max-height: 80px;
+    margin: 0 15px;
+    }
+    
+    
+    .mainimg {
+    height: 353px;
+    width: 300px;
+    }
+    
+    .gogglesmainimg {
+    width: 440px;
+    height: 320px;
+    }
+    
+    .snowboardmainimg {
+    width: 240px;
+    height: 300px;
+    margin: 20px 0;
+    }
+    
+    .dropdowntext a h4 {
+    width: 80%;
+    text-align: left;
+    margin-left: 10px;
+    }
+    
+    .faqdropdown {
+    width: 90%;
+    height: auto;
+    background-color: #29a7f0;
+    color: white;
+    margin: 30px auto;
+    padding: 10px 15px;
+    }
+    
+    .faqdropdown p {
+    margin-top: 15px;
+    font-size: 13px;
+    }
+    
+    .bottomgrid {
+    height: auto;
+    background-color: #f0f0f0;
+    max-width: 100%;
+    padding: 10px 20px;
+    }
+    
+    .bottomgrid div {
+    height: auto;
+    width: 100%;
+    padding: 10px 0;
+    }
+    
+    .bottomgrid0 {
+    display:none;
+    }
+    
+    .mobileonly {
+    display: block;
+    }
+    
+    .nomobile {
+    display: none;
+    }
+
+    .mobilefullwidth {
+        width: 100%;
+    }
+
+    }
+    
+    /* .............. */
+    
+@media (min-width: 812px){
+    .mainbanner {
+        height: 350px;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        }
+
+    .innersplit {
+        align-content: center;
+        height: 50%;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        }
+        
+        .innersplit h2, .innersplit h1, .innersplit p {
+        width: 80%;
+        text-align: center;
+        margin: 5px auto;
+        height: auto;
+        }
+    
+    .snowboards {
+        width: 200px;
+        height: 250px;
+        background-size: cover;
+        }
+    
+    .goggles {
+    height: 200px;
+    width: 275px;
+    background-size: cover;
+    }
+    
+    .mobileonly {
+    display: none;
+    }
+    .productsgrid {
+    display: grid;
+    max-width: 100%;
+    height: auto;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: minmax(auto, 350px);
+    margin: 50px 20px;
+    }
+    
+    .productsgrid div {
+    margin: 20px auto;
+    }
+    
+    .productsgrid a {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    }
+    
+    .productsgrid a h5 {
+    margin-top: 15px;
+    }
+    
+    .gridpiece div {
+    margin-bottom: 20px;
+    }
+    
+    .gogglesgrid {
+    display: grid;
+    max-width: 100%;
+    height: auto;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: minmax(auto, 350px);
+    margin: 0 20px 30px 20px;    
+    }
+    
+    .grid1 {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    grid-column: 1 / 2;
+    height: auto;
+    }
+    
+    
+    .grid2 {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    grid-column: 2 / 3;
+    }
+    
+    .grid3 {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    grid-column: 3 / 4;
+    }
+    
+    .grid4 {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    grid-column: 4 / -1;
+    }
+    
+    .categories {
+    margin: 50px 0px;
+    display: flex;
+    justify-content: space-around;
+    }
+    
+    .category {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+    
+    .category a {
+    height: auto;
+    width: auto;
+    }
+    
+    .category h3{
+    width: 100%;
+    text-align: center;
+    }
+    
+    .category p {
+    width: 70%;
+    text-align: center;
+    margin: 10px 0;
+    }
+    
+    .category img{
+    height: 270px;
+    }
+    
+    .category img:hover {
+    animation-name: category;
+    animation-duration: 300ms;
+    animation-fill-mode: forwards;
+    }
+    
+    @keyframes category {
+    from {height: 270px;}
+    to {height: 280px;}
+    }
+    
+    .bottomgrid {
+    height: auto;
+    background-color: #f0f0f0;
+    width: 100%;
+    }
+    
+    .faqdropdown {
+    width: 48%;
+    height: auto;
+    background-color: #29a7f0;
+    color: white;
+    margin: 30px auto;
+    padding: 20px 30px;
+    }
+    
+    .faqdropdown p {
+    margin-top: 15px;
+    font-size: 13px;
+    }
+    
+    
+    .dropdowntext a h4 {
+    width: 75%;
+    text-align: left;
+    margin-left: 10px;
+    }
+    
+    .gogglesmainimg {
+    width: 440px;
+    height: 320px;
+    }
+    
+    .snowboardmainimg {
+    width: 320px;
+    height: 400px;
+    margin: 30px 0;
+    }
+    
+    .gogglesproductimages {
+    width: 49%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+    }
+    
+    .mainimg {
+    height: 471px;
+    width: 400px;
+    }
+    
+    .imgthumbnails {
+    margin: 20px auto;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    }
+    
+    .thumbnail {
+    max-height: 100px;
+    margin: 0 15px;
+    }
+    .colourgrey {
+    background-color: #f0f0f0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 20px;
+    }
+    
+    .iconbox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+    
+    .iconbox img{
+    margin: 5px 0;
+    }
+    
+    .iconbox h5 {
+    width: 100%;
+    }
+    .iconbox h5, .iconbox p {
+    margin: 5px 0;
+    text-align: center;
+    }
+    
+    .iconbox p {
+    font-size: 12px;
+    width: 85%;
+    }
+    
+    .colourgrey div {
+    margin: 50px 0;
+    }
+    
+    .icon {
+    max-height: 30px;
+    }
+    
+    .relatedproducts {
+    width: 80%;
+    height: auto;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    }
+    
+    .relatedproducts h3 {
+    margin: 0 auto 30px auto;
+    width: 100%;
+    text-align: center;
+    }
+    
+    .relprdt {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+    
+    .relprdt div {
+    margin-bottom: 20px;
+    }
+    
+    .relprdt h4 {
+    width: 100%;
+    text-align: center;
+    margin: 5px 0;
+    }
+    
+    .relprdt p {
+    font-size: 13px;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    }
+    
+    
+    .bottomgrid {
+    height: auto;
+    background-color: #f0f0f0;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr;
+    width: 100%;
+    column-gap: 25px;
+    padding: 30px 30px;
+    }
+    
+    .bottomgrid div {
+    height: auto;
+    }
+    
+    .bottomgrid0 {
+    grid-column: 1 / 2;
+    }
+    .bottomgrid1 {
+    grid-column: 2 / 3;    
+    }
+    
+    .bottomgrid2 {
+    grid-column: 3 / 4;    
+    }
+    
+    .bottomgrid3 {
+    grid-column: 4 / -1;    
+    }
+    
+    .bottomgrid p {
+    font-size: 12px;
+    }
+    
+    .bottomgrid h5 {
+    margin-bottom: 10px;
+    }
+    
+    .bottomgrid1 p {
+    margin-bottom: 15px;
+    }
+    
+    .bottomgrid2 p {
+    margin-bottom: 5px;
+    }
+    
+    .bottomgrid1 ul{
+    list-style-type: none;
+    }
+    
+    .bottomgrid ul li {
+    font-size: 12px;
+    margin: 5px 0;
+    }
+    
+    .bottomgrid ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+    }
+    
+    .paymentmethods{
+    max-height: 20px;    
+    }
+    
+    
+    .productprice {
+    color: #d71818;
+    font-size: 24px;
+    max-width: 50%;
+    display: inline-block;
+    margin: 0 10px 0 0;
+    }
+    
+    .salescopy {
+    margin: 10px 0;
+    max-width: 80%;
+    font-size: 15px;
+    }
+    
+    #dropdownbutton {
+    max-height: 20px;
+    cursor: pointer;
+    display: none;
+    }
+    
+    .jacketproductimages{
+    width: 49%;
+    }
+    
+    .productinfo {
+    width: 50%;
+    }
+    
+    }
