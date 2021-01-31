@@ -216,12 +216,6 @@ background-size: cover;
 background-position: center;
 }
 
-#gogglesbanner {
-background-image: url("images/pexels-monicore.jpg");
-background-size: cover;
-background-position: center;
-}
-
 #quicksilverblack {
 background-image: url("images/products/quicksilverblack/1219431.jpg");
 }
@@ -590,6 +584,12 @@ border: 0;
 
 @media (max-width: 812px){
 
+    #gogglesbanner {
+        background-image: url("images/gogglespurple.jpg");
+        background-size: cover;
+        background-position: center;
+        }
+
     .mainbanner {
         height: 280px;
         width: 100%;
@@ -707,7 +707,6 @@ border: 0;
     }
     
     .categories {
-    margin: 50px 0px;
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -718,6 +717,7 @@ border: 0;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin: 15px 0;
     }
     
     .category a {
@@ -999,6 +999,13 @@ border: 0;
     /* .............. */
     
 @media (min-width: 812px){
+
+    #gogglesbanner {
+        background-image: url("images/pexels-monicore.jpg");
+        background-size: cover;
+        background-position: center;
+        }
+
     .mainbanner {
         height: 350px;
         width: 100%;
@@ -1388,3 +1395,7 @@ border: 0;
     }
     
     }
+
+.marketing a button {
+cursor: pointer;
+}
