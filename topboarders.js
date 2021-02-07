@@ -214,67 +214,68 @@ function choosesize(a,b) {
 
 
 function dropdown(id){
-var windsnow = document.getElementById("windsnow");
-var glasses = document.getElementById("glasses");
-var ridingstyle = document.getElementById("ridingstyle");
-var shape = document.getElementById("shape");
-var delivery = document.getElementById("delivery");
-var water = document.getElementById("water");
+    
+    var windsnow = document.getElementById("windsnow");
+    var glasses = document.getElementById("glasses");
+    var ridingstyle = document.getElementById("ridingstyle");
+    var shape = document.getElementById("shape");
+    var delivery = document.getElementById("delivery");
+    var water = document.getElementById("water");
 
-if (id == "windsnow"){
-    if(windsnow.style.display == "block"){
-        windsnow.style.display = "none";
-        console.log("TURNED OFF");
-    }else {
-        windsnow.style.display = "block";
-        console.log("TURNED ON");
-    }
-}else if(id == "glasses"){
-    if(glasses.style.display == "block"){
-        glasses.style.display = "none";
-        console.log("TURNED OFF");
-    }else {
-        glasses.style.display = "block";
-        console.log("TURNED ON");
-    }
-}else if(id == "ridingstyle"){
-    if(ridingstyle.style.display == "block"){
-        ridingstyle.style.display = "none";
-    }else{
-        ridingstyle.style.display = "block";
-    }
-}else if(id == "shape"){
-    if(shape.style.display == "block"){
-        shape.style.display = "none";
-    }else{
-        shape.style.display = "block";
-    }
-}else if (id == "delivery"){
-    if(delivery.style.display == "block"){
-        delivery.style.display = "none";
-    }else{
-        delivery.style.display = "block";
-    }
-}else if(id == "water"){
-    if(water.style.display == "block"){
-        water.style.display = "none";
-    }else{
-        water.style.display = "block";
-    }
-}else{}
+    if (id == "windsnow"){
+        if(windsnow.style.display == "block"){
+            windsnow.style.display = "none";
+            console.log("TURNED OFF");
+        }else {
+            windsnow.style.display = "block";
+            console.log("TURNED ON");
+        }
+    }else if(id == "glasses"){
+        if(glasses.style.display == "block"){
+            glasses.style.display = "none";
+            console.log("TURNED OFF");
+        }else {
+            glasses.style.display = "block";
+            console.log("TURNED ON");
+        }
+    }else if(id == "ridingstyle"){
+        if(ridingstyle.style.display == "block"){
+            ridingstyle.style.display = "none";
+        }else{
+            ridingstyle.style.display = "block";
+        }
+    }else if(id == "shape"){
+        if(shape.style.display == "block"){
+            shape.style.display = "none";
+        }else{
+            shape.style.display = "block";
+        }
+    }else if (id == "delivery"){
+        if(delivery.style.display == "block"){
+            delivery.style.display = "none";
+        }else{
+            delivery.style.display = "block";
+        }
+    }else if(id == "water"){
+        if(water.style.display == "block"){
+            water.style.display = "none";
+        }else{
+            water.style.display = "block";
+        }
+    }else{}
 
-console.log("ran");
 }
 
 function togglemenu() {
-var dropdownmenu = document.getElementById("dropdownmenu");
-console.log(dropdownmenu.style.display);
 
-if(dropdownmenu.style.display != "block"){
-dropdownmenu.style.display = "block";
-}else if(dropdownmenu.style.display == "block"){
-dropdownmenu.style.display = "none";
-}else{}
+    var dropdownmenu = document.getElementById("dropdownmenu");
+    console.log(dropdownmenu.style.display);
+
+    if(dropdownmenu.style.display != "block"){
+        dropdownmenu.style.display = "block";
+    }else if(dropdownmenu.style.display == "block"){
+        dropdownmenu.style.display = "none";
+    }else{}
 
 
 }
