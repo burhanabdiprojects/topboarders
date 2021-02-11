@@ -114,7 +114,7 @@
 
 .gridpiece p {
     font-size: 13px;
-    margin: 2px 0;
+    margin: 10px 0;
 }
 
 .gridpiece h3, .gridpiece p {
@@ -327,10 +327,6 @@
     width: 75%;
     margin: 30px auto;
     text-align: center;
-}
-
-.text-content-centre {
-    width: 100%;
 }
 
 .text-content-centre h1 {
@@ -584,6 +580,18 @@
 
 @media (max-width: 812px){
 
+    .text-content-centre {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .centretitle {
+        width: 100%;
+        text-align: center;
+        margin: 30px 0 0;
+    }
+
     #gogglesbanner {
         background-image: url("images/gogglespurple.jpg");
         background-size: cover;
@@ -725,9 +733,10 @@
         width: auto;
     }
     
-    .category h3{
+    .category h4{
         width: 100%;
         text-align: center;
+        margin: 10px 0;
     }
     
     .category p {
@@ -868,7 +877,7 @@
     }
     
     .bottomgrid2 p {
-        margin-bottom: 5px;
+        margin-bottom: 15px;
     }
     
     .bottomgrid1 ul{
@@ -999,6 +1008,22 @@
     
 @media (min-width: 812px){
 
+    .abt {
+        margin: 50px 0;
+    }
+
+    .text-content-centre {
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    }    
+
+    .centretitle {
+        width: 100%;
+        text-align: center;
+        margin: 30px 0 40px;
+    }
+
     #gogglesbanner {
         background-image: url("images/pexels-monicore.jpg");
         background-size: cover;
@@ -1115,7 +1140,7 @@
     }
     
     .categories {
-        margin: 50px 0px;
+        margin: 30px 0px;
         display: flex;
         justify-content: space-around;
     }
@@ -1131,9 +1156,10 @@
         width: auto;
     }
     
-    .category h3{
+    .category h4{
         width: 100%;
         text-align: center;
+        margin-bottom: 10px;
     }
     
     .category p {
@@ -1343,7 +1369,7 @@
     }
     
     .bottomgrid2 p {
-        margin-bottom: 5px;
+        margin-bottom: 15px;
     }
     
     .bottomgrid1 ul{
@@ -1399,3 +1425,4 @@
 .marketing a button {
     cursor: pointer;
 }
+
