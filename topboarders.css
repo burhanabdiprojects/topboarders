@@ -48,6 +48,10 @@
     border-bottom: solid 1px rgb(230, 230, 230, 0.8);
 }
 
+.gbsize {
+    display: none;
+}
+
 
 #dropdownmenu {
     width: 100%;
@@ -579,6 +583,43 @@
 }
 
 @media (max-width: 812px){
+
+    .dropdowntext h4 {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .text-content-centre p {
+        font-size: 11px;
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    p {
+        font-size: 11px;
+    }
+
+    .gbsize {
+        height: 300px;
+        width: 100%;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        color: white;
+        flex-wrap: wrap;
+    }
+    
+    .gbsize h1, .gbsize p {
+        width: 100%;
+        text-align: center;
+    }
 
     .text-content-centre {
         width: 100%;
