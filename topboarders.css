@@ -584,6 +584,10 @@
 
 @media (max-width: 812px){
 
+    .marketing p {
+        width: 85%;
+    }
+
     .dropdowntext h4 {
         font-size: 14px;
     }
@@ -991,8 +995,8 @@
     }
     
     .gogglesmainimg {
-        width: 440px;
-        height: 320px;
+        width: 308px;
+        height: 224px;
     }
     
     .snowboardmainimg {
