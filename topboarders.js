@@ -1,3 +1,6 @@
+
+/* Selecting different images in product gallery */
+
 function changeimg(a,b) {
 
     var dopewyliebng1 = document.getElementById("dopewyliebng1");
@@ -170,6 +173,9 @@ function changeimg(a,b) {
 
 }
 
+
+/* Selecting jacket size */
+
 function choosesize(a,b) {
     var xs = document.getElementById("xs");
     var s = document.getElementById("s");
@@ -213,6 +219,8 @@ function choosesize(a,b) {
 }
 
 
+/* Expanding dropdown FAQ questions */
+
 function dropdown(id){
     
     var windsnow = document.getElementById("windsnow");
@@ -225,18 +233,18 @@ function dropdown(id){
     if (id == "windsnow"){
         if(windsnow.style.display == "block"){
             windsnow.style.display = "none";
-            console.log("TURNED OFF");
+ 
         }else {
             windsnow.style.display = "block";
-            console.log("TURNED ON");
+    
         }
     }else if(id == "glasses"){
         if(glasses.style.display == "block"){
             glasses.style.display = "none";
-            console.log("TURNED OFF");
+       
         }else {
             glasses.style.display = "block";
-            console.log("TURNED ON");
+      
         }
     }else if(id == "ridingstyle"){
         if(ridingstyle.style.display == "block"){
@@ -266,10 +274,12 @@ function dropdown(id){
 
 }
 
+/* Toggling the menu size on mobile */
+
 function togglemenu() {
 
     var dropdownmenu = document.getElementById("dropdownmenu");
-    console.log(dropdownmenu.style.display);
+
 
     if(dropdownmenu.style.display != "block"){
         dropdownmenu.style.display = "block";
