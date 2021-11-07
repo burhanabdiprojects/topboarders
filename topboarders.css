@@ -1499,7 +1499,6 @@
         background-size: cover;
         height: 600px;
         padding: 80px 0;
-        clip-path: polygon(0 0, 100% 0%, 100% 94%, 0 88%);
     }
 
     #homepagebannerwide h1{
